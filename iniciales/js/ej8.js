@@ -5,9 +5,9 @@ let cadenaInvertida = cadena.split("").reverse().join(""); //Da la vuelta a la c
 
 
 if (palindromo)
-    document.write("La cadena: " + cadena + " , es recursiva");
+    document.write("La cadena: " + cadena + " , es palimdroma");
 else
-    document.write("La cadena: " + cadena + " , no es recursiva");
+    document.write("La cadena: " + cadena + " , no es palimdroma");
 
 
 function palindromo(cadena){
